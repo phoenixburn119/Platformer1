@@ -14,7 +14,7 @@ public abstract class GameObject
     protected int width;
     protected int height;
 
-    public Rect getRectangel()
+    public Rect getRectangle()
     {
         return new Rect(x, y, x+width, y+height);
     }
@@ -47,6 +47,4 @@ public abstract class GameObject
     {
         return width;
     }
-
-
 }
